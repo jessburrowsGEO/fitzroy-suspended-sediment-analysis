@@ -42,6 +42,20 @@ These results demonstrate that discharge magnitude alone does not fully describe
 - Raster analysis
 - QGIS cartography
 
+## Key outputs
+
+### Fitzroy discharge and Landsat observations
+
+Daily Fitzroy River discharge was integrated with usable Landsat observations to identify satellite acquisitions associated with elevated antecedent flow conditions.
+
+![Fitzroy River discharge and Landsat observations](Figure_3_Fitzroy_discharge_Landsat_observations.png)
+
+### Spatial comparison of selected high-flow events
+
+The event comparison below combines Landsat true-colour imagery with pixels where NDTI2 exceeded the location-specific background 90th percentile. Final cartographic presentation was completed in QGIS.
+
+![Comparison of elevated relative turbidity during selected high-flow events](Figure_4_Event_Comparison.png)
+
 ## Important interpretation
 
 NDTI2 is used here as an indicator of **relative turbidity**, rather than as a direct estimate of total suspended sediment concentration. Elevated areas represent pixels exceeding their location-specific background NDTI2 threshold and should not be interpreted as a definitive physical sediment-plume boundary.
